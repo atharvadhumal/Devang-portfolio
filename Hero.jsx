@@ -48,24 +48,11 @@ function Hero() {
           {/* <a href="#contact" className="bg-white border border-blue-600 text-blue-600 px-6 py-2 rounded-full shadow-lg hover:bg-blue-50 transition">
             Get in Touch
           </a> */}
-          <a href="/assets/Devang-Gohil-Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-gray-100 px-5 py-2 rounded-full text-sm hover:shadow-md transition">
+          <a href="devang_portfolio_react\devang_portfolio_react\public\resume\Devang-Gohil-Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-gray-100 px-5 py-2 rounded-full text-sm hover:shadow-md transition">
             <img src="https://img.icons8.com/ios-filled/24/download.png" alt="Download" />
             Download CV
           </a>
         </div>
-
-        {/* Skills */}
-        {/* <div className="flex flex-wrap justify-center gap-2 mb-6">
-          {['Excel', 'Power BI', 'SQL', 'Python'].map((skill, index) => (
-            <span
-              key={skill}
-              className="px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full text-sm font-medium text-gray-700 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              {skill}
-            </span>
-          ))}
-        </div> */}
 
         {/* Education */}
         <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/20 inline-block">
